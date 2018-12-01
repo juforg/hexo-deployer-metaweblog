@@ -1,6 +1,6 @@
 {
   "name": "hexo-deployer-metaweblog",
-  "version": "0.0.1",
+  "version": "0.0.1beta",
   "description": "publish hexo blog to site with metaweblog api",
   "repository": {
     "type": "git",

@@ -17,23 +17,20 @@ You can configure this plugin in `_config.yml`.
 deploy:
   type: metaweblog
   blogtype: <cnblog>
+  checkdays: 15  # recently days that your posts will be chekck and publish
   username: <username>
   password: <password>
   apiurl: <apiurl>
 ```
 
 ## Known Issues
-
-metaweblog only finds `index.html` in root. This is [detail]()
-
-So you must set full url in your hexo blog codes like `/archives/index.html` except the root path.
-
-http://www.cnblogs.com/juforg/services/metaweblog.aspx
+- only support hexo theme next
+- public directory must match "yyyy/mm/dd/blogname/index.html"
 
 ## 已知博客
-新浪博客的 Publish URL：http://upload.move.blog.sina.com.cn/blog_rebuild/blog/xmlrpc.php
-cnblogs 的 Publish URL：http://www.cnblogs.com/Blog名/services/metaweblog.aspx。其中 Blog 名 请换为您的博客名。cnblogs 的博客后台设置，拉到最下面，也可以找到这个网址。比如说我的是 http://rpc.cnblogs.com/metaweblog/OtisBlog 两者网址不同，但是效果一样。
-oschina 的 Publish URL：https://my.oschina.net/action/xmlrpc
+ - 新浪博客的 Publish URL：http://upload.move.blog.sina.com.cn/blog_rebuild/blog/xmlrpc.php
+- cnblogs 的 Publish URL：http://www.cnblogs.com/Blog名/services/metaweblog.aspx。其中 Blog 名 请换为您的博客名。cnblogs 的博客后台设置，拉到最下面，也可以找到这个网址。比如说我的是 http://rpc.cnblogs.com/metaweblog/juforg 两者网址不同，但是效果一样。
+- oschina 的 Publish URL：https://my.oschina.net/action/xmlrpc
 
 - https://www.npmjs.com/package/cheerio
 
@@ -41,6 +38,7 @@ oschina 的 Publish URL：https://my.oschina.net/action/xmlrpc
 
 * Handle deleting posts
 * ~~ cnblog
+[] oschina
 
 
 ### 设计思路

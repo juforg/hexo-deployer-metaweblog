@@ -1,0 +1,34 @@
+{
+  "name": "hexo-deployer-metaweblog",
+  "version": "0.0.1",
+  "description": "publish hexo blog to site with metaweblog api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juforg/hexo-deployer-metaweblog.git"
+  },
+  "homepage": "https://hexo.io/",
+  "keywords": [
+    "hexo",
+    "metaweblog",
+    "deploy",
+    "deployer",
+    "MetaWeblogApi",
+    "cnblog"
+  ],
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "juforg <juforg@sina.com>(http://blog.appcity.vip)",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "hexo-fs": "^1.0.1",
+    "hexo-util": "0.6.3",
+    "md5": "^2.2.1",
+    "metaweblog-api": "^1.1.2",
+    "moment": "^2.22.2",
+    "sleep": "^5.2.3",
+    "xmlrpc": "^1.3.2"
+  }
+}
